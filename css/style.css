@@ -1,0 +1,63 @@
+:root {
+  --primary-headers-color: #212121;
+  --primary-text-color: #757575;
+  --primary-effects-color: #2196f3;
+}
+
+.page {
+  background: #ffffff;
+  color: var(--primary-headers-color);
+}
+/*Палитра разметки #212121; #757575; #FFFFFF; #2196F3 */
+
+.logo {
+  color: #2196f3;
+}
+
+.logo > .logostudioblack {
+  color: #000000;
+}
+
+.logo > .logostudiowhite {
+  color: #ffffff;
+}
+
+.list {
+  list-style: none;
+}
+
+/*nav style*/
+.nav .link {
+  color: var(--primary-headers-color);
+}
+
+.nav .link:hover,
+.nav .link:focus {
+  color: var(--primary-effects-color);
+}
+
+/*hero-title styles*/
+.hero-title {
+  color: #ffffff;
+}
+/*section headers names*/
+.section-title {
+  color: var(--primary-headers-color);
+}
+
+/*feature styles*/
+.feature-list > .title {
+  color: var(--primary-headers-color);
+}
+
+.feature-text {
+  color: var(--primary-text-color);
+}
+
+/*teammates*/
+.teammate {
+  color: var(--primary-headers-color);
+}
+.profession {
+  color: var(--primary-text-color);
+}
